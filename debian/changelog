@@ -1,0 +1,7 @@
+cutefish-calamares-settings (1.0.0-1) unstable; urgency=medium
+
+  * Initial release of Cutefish OS Calamares settings package
+  * Separated configuration from calamares package as recommended by Calamares
+  * Includes all Cutefish OS branding and module configurations
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 12 Apr 2026 23:30:00 +0800

@@ -1,0 +1,26 @@
+Source: cutefish-calamares-settings
+Section: utils
+Priority: optional
+Maintainer: Jonathan Carter <jcc@debian.org>
+Build-Depends: cmake,
+               debhelper-compat (= 13),
+               extra-cmake-modules,
+               pkg-kde-tools
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+Homepage: https://github.com/cutefishos/calamares
+
+Package: cutefish-calamares-settings
+Architecture: all
+Depends: cutefish-calamares (>= 0.5), ${misc:Depends}
+Description: Cutefish OS configuration for Calamares installer
+ This package provides the Cutefish OS specific configuration files
+ for the Calamares system installer.
+ .
+ It includes:
+  - Cutefish OS branding (logos, colors, QML interface)
+  - Module configurations for installation process
+  - Settings for partitioning, users, packages, etc.
+ .
+ This package should be installed alongside calamares to provide
+ a complete Cutefish OS installation experience.
