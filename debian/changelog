@@ -1,3 +1,27 @@
+cutefish-calamares-settings (1.0.0-5) unstable; urgency=medium
+
+  * Point GRUB at the shared Cutefish boot background used by Plymouth and SDDM.
+
+ -- CutefishOS Packaging Team <support@cutefishos.com>  Sat, 15 Aug 2026 23:55:00 +0800
+
+cutefish-calamares-settings (1.0.0-4) unstable; urgency=medium
+
+  * Disable systemd console status output on boot/shutdown; keep logs in journal
+
+ -- CutefishOS Packaging Team <support@cutefishos.com>  Sat, 15 Aug 2026 23:00:00 +0800
+
+cutefish-calamares-settings (1.0.0-3) unstable; urgency=medium
+
+  * Set kernel console loglevel=2 to hide noisy ACPI/SMBus warnings on boot
+
+ -- CutefishOS Packaging Team <support@cutefishos.com>  Sat, 15 Aug 2026 22:30:00 +0800
+
+cutefish-calamares-settings (1.0.0-2) unstable; urgency=medium
+
+  * Boot polish: graphical GRUB, Plymouth splash wiring, getty/SDDM VT handover
+
+ -- CutefishOS Packaging Team <support@cutefishos.com>  Sat, 15 Aug 2026 21:50:00 +0800
+
 cutefish-calamares-settings (1.0.0-1) unstable; urgency=medium
 
   * Initial release of Cutefish OS Calamares settings package
